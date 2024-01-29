@@ -4,7 +4,7 @@ import { FaMoon } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='h-[95vh] w-[100%] bg-gray-300 px-10 py-5'>
+    <div className='h-[100vh] w-[100%] bg-gray-300 px-10 py-5'>
     <div className='flex item-center'><p className='text-[17px]'>Follow us</p>
     <FaFacebook className='mx-5 my-2 text-[15px]'/>
     <FaTwitter className='mx-5 my-2 text-[15px]'/>
@@ -88,7 +88,7 @@ const Footer = () => {
 
 <hr className='my-6'></hr>
 
-<div className='flex justify-between items-baseline'>
+<div className='flex justify-between items-baseline py-5'>
 <div className=''>
 <ul className='flex'>
 <li className='text-2xl'><b>Simlar</b> <span className='bg-[black] text-white px-7 py-1 rounded-full'>Watch</span></li>
