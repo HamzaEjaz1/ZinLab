@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* Styling when focused */
+.custom-input:focus {
+  border: none; /* Setting border to zero */
+  outline: none; /* Optionally, removing the outline that appears by default */
+}
+
+body{
+ background-color: rgb(249, 249, 249);
+}
